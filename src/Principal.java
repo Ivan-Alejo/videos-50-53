@@ -21,5 +21,6 @@ public class Principal {
         System.out.println("Arreglo orginal");
         ordenar.mostrarArreglo(vector2);
         ordenar.radix(vector2);
+
     }
 }
