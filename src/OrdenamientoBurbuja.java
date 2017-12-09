@@ -317,6 +317,40 @@ mostrarArreglos(arreglo);
             }
         }//Fin del if
 
+    //Metodo busqueda secuancial;
+
+
+    }
+    public int busquedaSecuencial(int arreglo[], int elemento){
+        boolean encontrado = false;
+        int i;
+        for (i=0; i<arreglo.length && encontrado == false; i++){
+            if (elemento==arreglo[i]){
+                encontrado=true;
+                return i;
+            }
+        }
+        return -1;
+    }
+    //Metodo de busqueda binaria
+
+    public int busquedaBinaria(int arreglo[], int element){
+        int centro, primero, ultimo, valorCentro;
+        primero=0;
+        ultimo=arreglo.length-1;
+        while (primero<=ultimo){
+            centro =(primero+ultimo)/2;
+            valorCentro=arreglo[centro];
+            System.out.println("comparando a "+element+"con"+ arreglo[centro]);
+            if (element==valorCentro){
+                return centro;
+            }else if(element<valorCentro){
+                ultimo=centro-1;
+            }else {
+                primero=centro+1;
+            }
+        }
+        return -1;
     }
 }
 
