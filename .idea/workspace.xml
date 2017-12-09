@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1a4afeac-5f27-493b-b989-4c0bc53bf522" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OrdenamientoBurbuja.java" afterPath="$PROJECT_DIR$/src/OrdenamientoBurbuja.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Principal.java" afterPath="$PROJECT_DIR$/src/Principal.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -243,7 +241,7 @@
       <workItem from="1511998449605" duration="146000" />
       <workItem from="1512331360221" duration="1723000" />
       <workItem from="1512337372026" duration="5388000" />
-      <workItem from="1512788319739" duration="3836000" />
+      <workItem from="1512788319739" duration="3861000" />
     </task>
     <task id="LOCAL-00001" summary="agregue los metodos de ordenamiento que me faltaban">
       <created>1512332440228</created>
@@ -259,11 +257,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512332445416</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="agrege metodos de busquedas">
+      <created>1512793060373</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512793060373</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15962000" />
+    <option name="totallyTimeSpent" value="15987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -306,7 +311,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="agregue los metodos de ordenamiento que me faltaban" />
-    <option name="LAST_COMMIT_MESSAGE" value="agregue los metodos de ordenamiento que me faltaban" />
+    <MESSAGE value="agrege metodos de busquedas" />
+    <option name="LAST_COMMIT_MESSAGE" value="agrege metodos de busquedas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
